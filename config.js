@@ -4,7 +4,7 @@
  * configuration data
  */
 module.exports = {
-  port: 3000,
+  port: 3001,
   feedNo: 1,
   feed :  [
       {
