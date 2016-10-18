@@ -1,0 +1,20 @@
+{
+  "name": "firebasemonitor",
+  "version": "1.0.0",
+  "description": "- Web server of page to show results, connecting to firebase\r - Timer in the server to read the Leeds feed and write to firebase",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "firebase": "^3.5.0",
+    "http": "0.0.0",
+    "request": "^2.75.0"
+  }
+}
