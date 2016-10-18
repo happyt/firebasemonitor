@@ -1,0 +1,17 @@
+[
+    {
+    "name":"smith",
+    "address": "london",
+    "number":6
+},
+{
+    "name":"able",
+    "address": "newyork",
+    "number":6
+},
+{
+    "name":"jackson",
+    "address": "ambleside",
+    "number":6
+}
+]

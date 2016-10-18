@@ -40,7 +40,7 @@ var dbconfig = {
   firebase.initializeApp(dbconfig);
 
 var db = firebase.database();
-var ref = db.ref("uselection");
+var ref = db.ref(config.feed[config.feedNo].db);
 
 //
 //=======================

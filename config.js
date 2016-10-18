@@ -5,13 +5,16 @@
  */
 module.exports = {
   port: 3001,
-  feedNo: 1,
+  feedNo: 0,
   feed :  [
       {
-        url: 'http://localhost:8080/data/rydercup.xml',
+        url: 'http://localhost:3001/data.json',
+        db:"test",
         polltime: 10
-    },{
+    },
+    {
         url: 'http://orig-stage-elections.news.sky.com/query/elections/15/region/overview.json',
+        db:"dbelection",
         polltime: 5
     }
     ]
