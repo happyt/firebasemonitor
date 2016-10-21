@@ -1,1 +1,28 @@
-testing
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>US Fire</title>
+    <!-- React JS -->
+    <script src="https://fb.me/react-15.3.0.min.js"></script>
+    <script src="https://fb.me/react-dom-15.3.0.min.js"></script>
+
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+
+    <!-- ReactFire -->
+    <script src="https://cdn.firebase.com/libs/reactfire/1.0.0/reactfire.min.js"></script>
+    <script>
+        var config = {
+            apiKey: "AIzaSyBkHlmyuJydTF-UMQoAEoexGjV6mr_Rz14",
+            databaseURL: "https://uselection-3482a.firebaseio.com"
+        };
+        firebase.initializeApp(config);
+    </script>
+</head>
+<body>
+        <div id="example"></div>
+        <!-- Main -->
+        <script src="./dist/bundle.js"></script>
+</body>
+</html>
