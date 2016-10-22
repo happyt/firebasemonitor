@@ -1,16 +1,16 @@
-import * as React from "react";
+import * as React from 'react';
 
-export interface Props {  
+interface Props {  
 }
-export interface State {  
+interface State {  
     secondsElapsed: number
 }
 
 export default class Timer extends React.Component<Props, State> {
     private interval: any;
         
-    constructor(props) {
-        super(props);
+    constructor() {
+        super();
         this.state = {
             secondsElapsed: 0
         };
